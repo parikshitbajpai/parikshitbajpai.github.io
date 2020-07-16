@@ -1213,6 +1213,18 @@ hr {
 	background: url(../images/background-cover.jpg) top left no-repeat #666666;
 	background-size: cover; }
 
+.panel-cover--solid {
+	display: block;
+	position: fixed;
+	z-index: 900;
+	width: 100%;
+	max-width: none;
+	height: 100%;
+	background-color: rgba(61, 66, 96, 0.6);
+	background-image: -webkit-linear-gradient(-410deg, rgba(61, 66, 96, 0.6) 20%, rgba(21, 23, 34, 0.8));
+	background-image: linear-gradient(140deg,rgba(61, 66, 96, 0.6) 20%, rgba(21, 23, 34, 0.8));
+	background-size: cover; }
+
 .panel-cover--collapsed {
 	width: 40%;
 	max-width: 530px; }
@@ -1306,11 +1318,12 @@ hr {
 .cover-disabled {
 	background: none; }
 
+// This button is the style for cover buttons
 .btn, .navigation__item a {
 	padding: 10px 20px;
-	border: 1px solid #e25440;
+	border: none;
 	border-radius: 20px;
-	font-size: .9em;
+	font-size: 1em;
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-shadow: none;
