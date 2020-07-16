@@ -6,7 +6,7 @@ baseurl: ''
 profilepic: '/images/profile.jpg'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
-font_awesome: '/fonts/fontawesome.js'
+# font_awesome: '/fonts/fontawesome.js'
 
 author:
   name: 'Parikshit Bajpai'
