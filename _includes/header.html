@@ -8,12 +8,12 @@
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-        <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
+        <a href="{{ site.baseurl }}/" title="Home of {{ site.title }}">
           <img src="{{ site.baseurl }}{{ site.profilepic }}" class="user-image" alt="My Profile Photo">
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
-        </a>
+        </a >
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">PhD Candidate in <a href="http://mcsc.science.uoit.ca/">Modelling and Computational Science<br><a href="https://ontariotechu.ca/"> Ontario Tech University</a>.</p>
+        <p class="panel-cover__description">PhD Candidate in <a href="http://mcsc.science.uoit.ca/" target="_blank">Modelling and Computational Science<br><a href="https://ontariotechu.ca/" target="_blank">Ontario Tech University</a></p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
@@ -103,17 +103,39 @@
               </li>
             {% endif %}
 
+            {% if site.author.lab_website %}
+              <!-- Lab Website -->
+              <li class="navigation__item">
+                <a href="https://{{ site.author.lab_website }}" title="Website Nuclear Fuels and Materials Group" target="_blank">
+                  <i class="fa fa-link"></i>
+                  <span class="label">Lab</span>
+                </a>
+              </li>
+            {% endif %}
+
             </ul>
           </nav>
 
           <br>
 
-          <!--<nav class="cover-navigation cover-navigation--primary">-->
-          <nav class="cover-navigation navigation--social">
+          <nav class="cover-navigation cover-navigation--primary">
+            <hr class="panel-cover__divider--secondary">
+          <!-- <nav class="cover-navigation navigation--social"> -->
             <ul class="navigation">
-              <li class="navigation__item"><a href="https://nuclear.ontariotechu.ca/piro" title="link to Nuclear Fuels and Materials Group"><i class="fa fa-link fa-lg"></i>&nbsp;NFMG Website</a></li>
               <!--<li class="navigation__item"><a href="{{ site.baseurl }}/#" title="link to Tweets" class="panel-button"><i class="icon icon-social-twitter"></i>&nbsp;Tweets</a></li>-->
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#projects" title="link to Tweets" class="panel-button projects-button"><i class="fa fa-file-code fa-lg"></i>&nbsp;Projects</a></li>
+              <!-- <li class="navigation__site"><a href="{{ site.baseurl }}/#about" title="link to Tweets" class="panel-button projects-button"><i class="fa fa-file-code fa-lg"></i>&nbsp;About</a></li> -->
+
+              <li class="navigation__site">
+                <a href="{{ site.baseurl }}/#about" title="link to Tweets" class="panel-button projects-button">
+                  <i class="fa fa-file-code fa-lg"></i>&nbsp;About
+                </a>
+              <!-- </li>
+
+              <li class="navigation__site"> -->
+                <a href="{{ site.baseurl }}/#projects" title="link to Tweets" class="panel-button projects-button">
+                  <i class="fa fa-file-code fa-lg"></i>&nbsp;Projects
+                </a>
+              </li>
             </ul>
           </nav>
 
