@@ -4,18 +4,18 @@ description: 'Personal Page'
 url: 'https://parikshitbajpai.github.io'
 baseurl: ''
 profilepic: '/images/my_image.jpg'
-bkimage: '/images/bk1.jpg'
-google_analytics: UA-XXXXXX-X
-# font_awesome: '/fonts/fontawesome.js'
+bkimage: '/images/bk2.png'
+# google_analytics: UA-XXXXXX-X
+
 
 author:
   name: 'Parikshit Bajpai'
   email: 'parikshit.bajpai@ontariotechu.net'
-  twitter_username: 'pbajpai07'
-  facebook_username: 'parikshit.bajpai'
+  # twitter_username: 'pbajpai07'
+  # facebook_username: 'parikshit.bajpai'
   github_username:  'parikshitbajpai'
   linkedin_username:  'parikshit-bajpai'
-  instagram_username: 'bajpaiparikshit'
+  # instagram_username: 'bajpaiparikshit'
   lab_website: 'nuclear.ontariotechu.ca/piro'
   # meetup_name: Azure-Meetup-Rostock-MV
 
