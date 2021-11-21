@@ -33,8 +33,8 @@ title = "Parikshit's Personal Page"
   [params.contact]
     linkedin = "https://www.linkedin.com/in/parikshit-bajpai"
     github = "https://www.github.com/parikshitbajpai"
-    instagram = "https://instagram.com/jdoe"
-    twitter = "https://twitter.com/jdoe"
+    # instagram = "https://instagram.com/jdoe"
+    # twitter = "https://twitter.com/jdoe"
 
     # You may use (inline) tables for more versatility
     # This allows sorting and even more icons.
@@ -60,4 +60,4 @@ title = "Parikshit's Personal Page"
       link = "https://scholar.google.com/citations?user=VNjTe8YAAAAJ"
 
     [params.footer]
-      copyright = "Me"
+      copyright = ""
