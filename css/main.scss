@@ -124,7 +124,7 @@ h3 {
 }
 
 .site-menu {
-  flex: 0 1 auto;
+  display: none;
 }
 
 .site-menu > summary {
@@ -550,7 +550,12 @@ h3 {
     border-radius: 999px;
   }
 
+  .site-nav--desktop {
+    display: none;
+  }
+
   .site-menu {
+    display: block;
     position: relative;
     flex: 0 0 auto;
   }
