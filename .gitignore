@@ -1,2 +1,5 @@
 .jekyll-cache/
 _site/
+.DS_Store
+# Generated from css/main.scss by Jekyll during deployment.
+css/main.css

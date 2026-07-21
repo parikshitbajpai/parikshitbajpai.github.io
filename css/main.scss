@@ -166,6 +166,10 @@ h3 {
   border-radius: 40px;
 }
 
+.hero__copy {
+  min-width: 0;
+}
+
 .eyebrow {
   margin-bottom: 1rem;
   color: var(--copper);
@@ -187,7 +191,8 @@ h3 {
 .hero h1 {
   max-width: 11ch;
   margin-bottom: 1.25rem;
-  font-size: clamp(3.2rem, 7vw, 6.2rem);
+  font-size: clamp(3.2rem, 7vw, 5.7rem);
+  overflow-wrap: anywhere;
 }
 
 .hero__lead,
