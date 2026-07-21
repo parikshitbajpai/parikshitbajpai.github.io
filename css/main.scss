@@ -115,22 +115,26 @@ h3 {
 }
 
 .brand {
+  flex: 0 0 auto;
   font-family: "Newsreader", Georgia, serif;
   font-size: 1.45rem;
   font-weight: 600;
   letter-spacing: 0.01em;
+  white-space: nowrap;
 }
 
 .site-nav {
   display: flex;
-  flex-wrap: wrap;
+  flex: 0 1 auto;
+  flex-wrap: nowrap;
   justify-content: flex-end;
-  gap: 1rem;
+  gap: clamp(0.6rem, 1.3vw, 1rem);
 }
 
 .site-nav a {
   color: var(--muted);
   font-size: 0.95rem;
+  white-space: nowrap;
 }
 
 .site-nav a:hover,
@@ -537,6 +541,7 @@ h3 {
 
   .site-nav {
     align-items: flex-start;
+    flex-wrap: wrap;
   }
 
   .site-main {
