@@ -168,6 +168,7 @@ h3 {
 
 .hero__copy {
   min-width: 0;
+  container-type: inline-size;
 }
 
 .eyebrow {
@@ -189,10 +190,16 @@ h3 {
 }
 
 .hero h1 {
-  max-width: 11ch;
+  max-width: none;
   margin-bottom: 1.25rem;
-  font-size: clamp(3.2rem, 5vw, 5rem);
+  font-size: clamp(3.2rem, 4vw, 4.4rem);
   overflow-wrap: anywhere;
+}
+
+@supports (width: 1cqi) {
+  .hero h1 {
+    font-size: clamp(3.2rem, 10cqi, 5rem);
+  }
 }
 
 .hero__lead,
