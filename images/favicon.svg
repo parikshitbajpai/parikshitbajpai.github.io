@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Parikshit Bajpai">
+  <rect width="64" height="64" rx="16" fill="#163b42"/>
+  <path d="M20 48V16h12.5c8.2 0 13 3.7 13 10.3 0 6.7-4.8 10.6-13 10.6H26.5V48H20Zm6.5-16.7h5.7c4.4 0 6.7-1.7 6.7-5 0-3.1-2.3-4.8-6.7-4.8h-5.7v9.8Z" fill="#fff8f2"/>
+  <circle cx="45" cy="45" r="4" fill="#d7b196"/>
+</svg>
