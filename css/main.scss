@@ -519,6 +519,14 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .hero {
+    gap: 1.5rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(3rem, 8.5cqi, 4rem);
+  }
+
   .hero__visual {
     min-height: 22rem;
   }
@@ -555,7 +563,7 @@ h3 {
   }
 
   .hero h1 {
-    max-width: none;
+    font-size: clamp(2.5rem, 11vw, 3.75rem);
   }
 
   .hero__actions {
