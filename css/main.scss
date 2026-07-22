@@ -288,7 +288,7 @@ h3 {
 .hero__visual {
   position: relative;
   display: grid;
-  align-content: center;
+  grid-template-rows: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   min-height: 26rem;
   padding: 1.25rem;
@@ -325,25 +325,25 @@ h3 {
 .hero-card {
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 1.15rem 1.2rem;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: var(--radius-md);
-  background: rgba(255, 255, 255, 0.08);
   color: #f9f3ea;
 }
 
-.hero-card--large {
-  max-width: 28rem;
-  margin-top: 2rem;
+.hero-card:nth-child(1) {
+  background: linear-gradient(135deg, rgba(53, 104, 109, 0.72), rgba(62, 112, 113, 0.36));
 }
 
-.hero-card--small {
-  max-width: 22rem;
+.hero-card:nth-child(2) {
+  background: linear-gradient(135deg, rgba(75, 104, 98, 0.72), rgba(86, 111, 103, 0.36));
 }
 
-.hero-card--accent {
-  justify-self: end;
-  background: rgba(168, 100, 59, 0.18);
+.hero-card:nth-child(3) {
+  background: linear-gradient(135deg, rgba(108, 96, 80, 0.72), rgba(124, 106, 86, 0.36));
 }
 
 .hero-card__label,
@@ -416,6 +416,18 @@ h3 {
 .contact-panel h2 {
   margin-bottom: 0.9rem;
   font-size: clamp(2.2rem, 4vw, 4rem);
+}
+
+.scholar-link {
+  color: var(--copper);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.scholar-link:hover,
+.scholar-link:focus-visible {
+  color: var(--teal);
 }
 
 .card-grid,
