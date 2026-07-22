@@ -2,45 +2,51 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Parikshit Bajpai</title>
-    <meta
-      name="description"
-      content="Computational scientist building thermodynamically informed multiphysics tools for advanced nuclear systems."
-    >
-    <meta name="theme-color" content="#163b42">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Parikshit Bajpai">
-    <meta
-      property="og:description"
-      content="Computational scientist building thermodynamically informed multiphysics tools for advanced nuclear systems."
-    >
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Parikshit Bajpai">
-    <meta
-      name="twitter:description"
-      content="Computational scientist building thermodynamically informed multiphysics tools for advanced nuclear systems."
-    >
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Space+Grotesk:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    >
-    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="css/main.css?v={{ site.time | date: '%s' }}">
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <header class="site-header">
-      <div class="site-header__inner">
-        <a class="brand" href="index.html">Parikshit Bajpai</a>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parikshit Bajpai</title>
+  <meta name="description"
+    content="Computational scientist building thermodynamically informed multiphysics tools for advanced nuclear systems.">
+  <meta name="theme-color" content="#163b42">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Parikshit Bajpai">
+  <meta property="og:description"
+    content="Computational scientist building thermodynamically informed multiphysics tools for advanced nuclear systems.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Parikshit Bajpai">
+  <meta name="twitter:description"
+    content="Computational scientist building thermodynamically informed multiphysics tools for advanced nuclear systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Space+Grotesk:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}?v=20260721" type="image/svg+xml">
+  <link rel="stylesheet" href="css/main.css?v={{ site.time | date: '%s' }}">
+</head>
 
-        <nav class="site-nav site-nav--desktop" aria-label="Primary">
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html">Parikshit Bajpai</a>
+
+      <nav class="site-nav site-nav--desktop" aria-label="Primary">
+        <a href="#research">Research</a>
+        <a href="#selected-work">Selected work</a>
+        <a href="#software">Software</a>
+        <a href="#publications">Publications</a>
+        <a href="#about">About</a>
+        <a href="#contact">Connect</a>
+      </nav>
+
+      <details class="site-menu">
+        <summary>Menu</summary>
+        <nav class="site-nav" aria-label="Primary">
           <a href="#research">Research</a>
           <a href="#selected-work">Selected work</a>
           <a href="#software">Software</a>
@@ -48,318 +54,316 @@
           <a href="#about">About</a>
           <a href="#contact">Connect</a>
         </nav>
+      </details>
+    </div>
+  </header>
 
-        <details class="site-menu">
-          <summary>Menu</summary>
-          <nav class="site-nav" aria-label="Primary">
-            <a href="#research">Research</a>
-            <a href="#selected-work">Selected work</a>
-            <a href="#software">Software</a>
-            <a href="#publications">Publications</a>
-            <a href="#about">About</a>
-            <a href="#contact">Connect</a>
-          </nav>
-        </details>
+  <main id="main-content" class="site-main">
+    <section class="hero">
+      <div class="hero__copy">
+        <p class="eyebrow">Computational scientist / multiphysics systems / thermochemistry</p>
+        <h1>Building computational tools for advanced nuclear systems.</h1>
+        <p class="hero__lead">
+          I develop thermodynamically informed multiphysics methods for
+          nuclear fuels, materials, and reactor systems. My work sits at the
+          intersection of scientific computing, physics-based modeling, and research software development.
+        </p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#research">Explore Research</a>
+          <a class="button button--ghost" href="#software">View Softwares</a>
+        </div>
+        <ul class="hero__tags" aria-label="Research focus areas">
+          <li>Idaho National Laboratory</li>
+          <li>MOOSE-based modeling</li>
+          <li>Molten-salt reactors</li>
+          <li>Surrogate models</li>
+        </ul>
       </div>
-    </header>
 
-    <main id="main-content" class="site-main">
-      <section class="hero">
-        <div class="hero__copy">
-          <p class="eyebrow">Computational scientist / multiphysics systems / thermochemistry</p>
-          <h1>Building computational tools for advanced nuclear systems.</h1>
-          <p class="hero__lead">
-            Parikshit Bajpai develops thermodynamically informed multiphysics methods for
-            nuclear fuels, materials, and molten-salt reactor systems. His work sits at the
-            intersection of scientific computing, physics-based modeling, and research software.
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero-card hero-card--large">
+          <p class="hero-card__label">Current focus</p>
+          <p class="hero-card__title">Accelerating thermodynamics-coupled simulation</p>
+          <p class="hero-card__text">
+            Reduced-order and machine-learning methods for large-scale reactor and materials modeling.
           </p>
-          <div class="hero__actions">
-            <a class="button button--primary" href="#research">Explore research</a>
-            <a class="button button--ghost" href="#software">View software work</a>
-          </div>
-          <ul class="hero__tags" aria-label="Research focus areas">
-            <li>Idaho National Laboratory</li>
-            <li>MOOSE-based modeling</li>
-            <li>Molten-salt reactors</li>
-            <li>Surrogate models</li>
+        </div>
+        <div class="hero-card hero-card--small">
+          <p class="hero-card__label">Research arc</p>
+          <p class="hero-card__title">India -> Italy -> Canada -> Idaho</p>
+        </div>
+        <div class="hero-card hero-card--small hero-card--accent">
+          <p class="hero-card__label">Mode of work</p>
+          <p class="hero-card__title">Scientific software with real physical fidelity</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Highlights">
+      <article class="stat">
+        <p class="stat__value">20</p>
+        <p class="stat__label">public research outputs listed on INL</p>
+      </article>
+      <article class="stat">
+        <p class="stat__value">3</p>
+        <p class="stat__label">active professional society memberships</p>
+      </article>
+      <article class="stat">
+        <p class="stat__value">2018-2026</p>
+        <p class="stat__label">publicly visible research record across methods and applications</p>
+      </article>
+    </section>
+
+    <section id="research" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Research</p>
+        <h2>A systems view of nuclear modeling.</h2>
+        <p>
+          The site is organized around the work itself: computational thermochemistry,
+          multiphysics coupling, advanced reactor analysis, and the software needed to make
+          those models usable at scale.
+        </p>
+      </div>
+
+      <div class="card-grid">
+        <article class="card">
+          <p class="card__kicker">Theme 01</p>
+          <h3>Thermodynamics-coupled multiphysics</h3>
+          <p>
+            Developing methods that connect chemistry, transport, corrosion, and material
+            behavior instead of treating them as isolated pieces.
+          </p>
+        </article>
+        <article class="card">
+          <p class="card__kicker">Theme 02</p>
+          <h3>Molten-salt reactor chemistry and corrosion</h3>
+          <p>
+            Modeling chemically evolving reactor environments across microstructural and
+            engineering scales, with particular attention to species tracking and safety.
+          </p>
+        </article>
+        <article class="card">
+          <p class="card__kicker">Theme 03</p>
+          <h3>Reduced-order and machine-learning acceleration</h3>
+          <p>
+            Building surrogate strategies that preserve physical meaning while cutting the
+            cost of high-fidelity thermodynamics-informed simulations.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="selected-work" class="section section--alt">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2>From core methods to deployable scientific tools.</h2>
+      </div>
+
+      <div class="work-grid">
+        <article class="work-card">
+          <h3>Yellowjacket</h3>
+          <p>
+            During his doctoral work, Parikshit led development of a MOOSE-based
+            Gibbs-energy minimizer for thermochemical equilibrium calculations.
+          </p>
+          <ul class="pill-list" aria-label="Yellowjacket topics">
+            <li>Thermochemical equilibrium</li>
+            <li>MOOSE framework</li>
+            <li>Scientific software design</li>
           </ul>
-        </div>
-
-        <div class="hero__visual" aria-hidden="true">
-          <div class="hero-card hero-card--large">
-            <p class="hero-card__label">Current focus</p>
-            <p class="hero-card__title">Accelerating thermodynamics-coupled simulation</p>
-            <p class="hero-card__text">
-              Reduced-order and machine-learning methods for large-scale reactor and materials modeling.
-            </p>
-          </div>
-          <div class="hero-card hero-card--small">
-            <p class="hero-card__label">Research arc</p>
-            <p class="hero-card__title">India -> Italy -> Canada -> Idaho</p>
-          </div>
-          <div class="hero-card hero-card--small hero-card--accent">
-            <p class="hero-card__label">Mode of work</p>
-            <p class="hero-card__title">Scientific software with real physical fidelity</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="stats" aria-label="Highlights">
-        <article class="stat">
-          <p class="stat__value">20</p>
-          <p class="stat__label">public research outputs listed on INL</p>
         </article>
-        <article class="stat">
-          <p class="stat__value">3</p>
-          <p class="stat__label">active professional society memberships</p>
-        </article>
-        <article class="stat">
-          <p class="stat__value">2018-2026</p>
-          <p class="stat__label">publicly visible research record across methods and applications</p>
-        </article>
-      </section>
-
-      <section id="research" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Research</p>
-          <h2>A systems view of nuclear modeling.</h2>
+        <article class="work-card">
+          <h3>MSR species accountancy and depletion</h3>
           <p>
-            The site is organized around the work itself: computational thermochemistry,
-            multiphysics coupling, advanced reactor analysis, and the software needed to make
-            those models usable at scale.
+            Contributing to full-loop molten-salt reactor chemistry and corrosion modeling
+            with coupled species accounting across multiphysics workflows.
           </p>
-        </div>
-
-        <div class="card-grid">
-          <article class="card">
-            <p class="card__kicker">Theme 01</p>
-            <h3>Thermodynamics-coupled multiphysics</h3>
-            <p>
-              Developing methods that connect chemistry, transport, corrosion, and material
-              behavior instead of treating them as isolated pieces.
-            </p>
-          </article>
-          <article class="card">
-            <p class="card__kicker">Theme 02</p>
-            <h3>Molten-salt reactor chemistry and corrosion</h3>
-            <p>
-              Modeling chemically evolving reactor environments across microstructural and
-              engineering scales, with particular attention to species tracking and safety.
-            </p>
-          </article>
-          <article class="card">
-            <p class="card__kicker">Theme 03</p>
-            <h3>Reduced-order and machine-learning acceleration</h3>
-            <p>
-              Building surrogate strategies that preserve physical meaning while cutting the
-              cost of high-fidelity thermodynamics-informed simulations.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="selected-work" class="section section--alt">
-        <div class="section-heading">
-          <p class="eyebrow">Selected work</p>
-          <h2>From core methods to deployable scientific tools.</h2>
-        </div>
-
-        <div class="work-grid">
-          <article class="work-card">
-            <h3>Yellowjacket</h3>
-            <p>
-              During his doctoral work, Parikshit led development of a MOOSE-based
-              Gibbs-energy minimizer for thermochemical equilibrium calculations.
-            </p>
-            <ul class="pill-list" aria-label="Yellowjacket topics">
-              <li>Thermochemical equilibrium</li>
-              <li>MOOSE framework</li>
-              <li>Scientific software design</li>
-            </ul>
-          </article>
-          <article class="work-card">
-            <h3>MSR species accountancy and depletion</h3>
-            <p>
-              Contributing to full-loop molten-salt reactor chemistry and corrosion modeling
-              with coupled species accounting across multiphysics workflows.
-            </p>
-            <ul class="pill-list" aria-label="MSR topics">
-              <li>Molten-salt systems</li>
-              <li>Corrosion modeling</li>
-              <li>Coupled analyses</li>
-            </ul>
-          </article>
-          <article class="work-card">
-            <h3>Graphite property modeling</h3>
-            <p>
-              Working on material-property and mechanistic models for advanced nuclear-grade
-              graphite, including uncertainty-aware calibration at high temperature.
-            </p>
-            <ul class="pill-list" aria-label="Graphite topics">
-              <li>Bayesian calibration</li>
-              <li>Materials degradation</li>
-              <li>Mechanistic modeling</li>
-            </ul>
-          </article>
-          <article class="work-card">
-            <h3>Surrogate models for multiphysics simulation</h3>
-            <p>
-              Leading work on computational methods that accelerate thermodynamically informed
-              reactor and materials simulations without discarding the governing physics.
-            </p>
-            <ul class="pill-list" aria-label="Surrogate modeling topics">
-              <li>Reduced-order models</li>
-              <li>Machine learning</li>
-              <li>Scalable simulation</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section id="software" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Software</p>
-          <h2>Code is part of the research argument.</h2>
+          <ul class="pill-list" aria-label="MSR topics">
+            <li>Molten-salt systems</li>
+            <li>Corrosion modeling</li>
+            <li>Coupled analyses</li>
+          </ul>
+        </article>
+        <article class="work-card">
+          <h3>Graphite property modeling</h3>
           <p>
-            The software layer is not secondary here. It is how the methods become testable,
-            reusable, and useful to other researchers and engineering teams.
+            Working on material-property and mechanistic models for advanced nuclear-grade
+            graphite, including uncertainty-aware calibration at high temperature.
           </p>
-        </div>
-
-        <div class="software-list">
-          <article class="software-item">
-            <div>
-              <p class="software-item__label">Framework</p>
-              <h3>MOOSE</h3>
-              <p>
-                Multiphysics environment used across several strands of this work, from
-                thermodynamics coupling to reactor chemistry applications.
-              </p>
-            </div>
-            <a href="https://github.com/idaholab/moose" target="_blank" rel="noreferrer">Open repository</a>
-          </article>
-          <article class="software-item">
-            <div>
-              <p class="software-item__label">Thermochemistry tooling</p>
-              <h3>Thermochimica and related equilibrium methods</h3>
-              <p>
-                Computational thermodynamics infrastructure for chemical state estimation,
-                phase equilibrium, and constitutive-property workflows.
-              </p>
-            </div>
-            <a href="https://github.com/ORNL-CEES/thermochimica" target="_blank" rel="noreferrer">Open repository</a>
-          </article>
-          <article class="software-item">
-            <div>
-              <p class="software-item__label">Public profile</p>
-              <h3>GitHub</h3>
-              <p>
-                Public code, contributions, and technical trail across scientific computing
-                and open research software.
-              </p>
-            </div>
-            <a href="https://github.com/parikshitbajpai" target="_blank" rel="noreferrer">Visit profile</a>
-          </article>
-        </div>
-      </section>
-
-      <section id="publications" class="section section--alt">
-        <div class="section-heading">
-          <p class="eyebrow">Publications</p>
-          <h2>Recent work in public view.</h2>
-        </div>
-
-        <div class="publication-list">
-          <article class="publication">
-            <p class="publication__meta">2026 / Nuclear Engineering and Design</p>
-            <h3>
-              <a href="https://doi.org/10.1016/j.nucengdes.2025.114524" target="_blank" rel="noreferrer">
-                A methodology for decay heat characterization in molten salt reactors
-              </a>
-            </h3>
-          </article>
-          <article class="publication">
-            <p class="publication__meta">2026 / Progress in Nuclear Energy</p>
-            <h3>
-              <a href="https://doi.org/10.1016/j.pnucene.2026.106421" target="_blank" rel="noreferrer">
-                Decay heat characterization for molten salt reactor concepts with power density, humidity, and air ingress as uncertain parameters
-              </a>
-            </h3>
-          </article>
-          <article class="publication">
-            <p class="publication__meta">2025 / npj Materials Degradation</p>
-            <h3>
-              <a href="https://doi.org/10.1038/s41529-025-00710-7" target="_blank" rel="noreferrer">
-                Bayesian calibration of irradiated graphite property models under high temperatures
-              </a>
-            </h3>
-          </article>
-          <article class="publication">
-            <p class="publication__meta">2025 / Progress in Nuclear Energy</p>
-            <h3>
-              <a href="https://doi.org/10.1016/j.pnucene.2024.105503" target="_blank" rel="noreferrer">
-                Coupled neutronics, thermochemistry, corrosion modeling and sensitivity analyses for isotopic evolution in molten salt reactors
-              </a>
-            </h3>
-          </article>
-        </div>
-      </section>
-
-      <section id="about" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Trajectory</p>
-          <h2>An international path through mechanics, nuclear engineering, and computational science.</h2>
-        </div>
-
-        <div class="timeline">
-          <article class="timeline__item">
-            <p class="timeline__year">Foundation</p>
-            <h3>Mechanical engineering in India</h3>
-            <p>Bachelor's training that established the engineering base before the move into nuclear systems and modeling.</p>
-          </article>
-          <article class="timeline__item">
-            <p class="timeline__year">Italy</p>
-            <h3>Master's in nuclear engineering</h3>
-            <p>Work at Politecnico di Milano included computational models for reactivity feedback in molten-salt fast reactor systems.</p>
-          </article>
-          <article class="timeline__item">
-            <p class="timeline__year">Canada</p>
-            <h3>PhD in modelling and computational science</h3>
-            <p>Doctoral research at Ontario Tech University focused on thermochemical-equilibrium solvers and MOOSE-based development.</p>
-          </article>
-          <article class="timeline__item">
-            <p class="timeline__year">United States</p>
-            <h3>Computational scientist at Idaho National Laboratory</h3>
-            <p>Current work spans reactor chemistry, advanced materials, surrogate methods, and multiphysics software for nuclear applications.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="contact" class="section">
-        <div class="contact-panel">
-          <div>
-            <p class="eyebrow">Connect</p>
-            <h2>Open to technical conversations that go beyond surface-level AI and modeling talk.</h2>
-            <p>
-              The clearest routes in are public: research profile, code, and professional
-              network.
-            </p>
-          </div>
-          <div class="contact-links">
-            <a href="https://inl.elsevierpure.com/en/persons/parikshit-bajpai/" target="_blank" rel="noreferrer">INL profile</a>
-            <a href="https://github.com/parikshitbajpai" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/parikshit-bajpai" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="https://orcid.org/0000-0001-5778-449X" target="_blank" rel="noreferrer">ORCID</a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer__inner">
-        <span>&copy; 2026 Parikshit Bajpai</span>
-        <span>Research, software, and scientific computing.</span>
+          <ul class="pill-list" aria-label="Graphite topics">
+            <li>Bayesian calibration</li>
+            <li>Materials degradation</li>
+            <li>Mechanistic modeling</li>
+          </ul>
+        </article>
+        <article class="work-card">
+          <h3>Surrogate models for multiphysics simulation</h3>
+          <p>
+            Leading work on computational methods that accelerate thermodynamically informed
+            reactor and materials simulations without discarding the governing physics.
+          </p>
+          <ul class="pill-list" aria-label="Surrogate modeling topics">
+            <li>Reduced-order models</li>
+            <li>Machine learning</li>
+            <li>Scalable simulation</li>
+          </ul>
+        </article>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <section id="software" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Software</p>
+        <h2>Code is part of the research argument.</h2>
+        <p>
+          The software layer is not secondary here. It is how the methods become testable,
+          reusable, and useful to other researchers and engineering teams.
+        </p>
+      </div>
+
+      <div class="software-list">
+        <article class="software-item">
+          <div>
+            <p class="software-item__label">Framework</p>
+            <h3>MOOSE</h3>
+            <p>
+              Multiphysics environment used across several strands of this work, from
+              thermodynamics coupling to reactor chemistry applications.
+            </p>
+          </div>
+          <a href="https://github.com/idaholab/moose" target="_blank" rel="noreferrer">Open repository</a>
+        </article>
+        <article class="software-item">
+          <div>
+            <p class="software-item__label">Thermochemistry tooling</p>
+            <h3>Thermochimica and related equilibrium methods</h3>
+            <p>
+              Computational thermodynamics infrastructure for chemical state estimation,
+              phase equilibrium, and constitutive-property workflows.
+            </p>
+          </div>
+          <a href="https://github.com/ORNL-CEES/thermochimica" target="_blank" rel="noreferrer">Open repository</a>
+        </article>
+        <article class="software-item">
+          <div>
+            <p class="software-item__label">Public profile</p>
+            <h3>GitHub</h3>
+            <p>
+              Public code, contributions, and technical trail across scientific computing
+              and open research software.
+            </p>
+          </div>
+          <a href="https://github.com/parikshitbajpai" target="_blank" rel="noreferrer">Visit profile</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="section section--alt">
+      <div class="section-heading">
+        <p class="eyebrow">Publications</p>
+        <h2>Recent work in public view.</h2>
+      </div>
+
+      <div class="publication-list">
+        <article class="publication">
+          <p class="publication__meta">2026 / Nuclear Engineering and Design</p>
+          <h3>
+            <a href="https://doi.org/10.1016/j.nucengdes.2025.114524" target="_blank" rel="noreferrer">
+              A methodology for decay heat characterization in molten salt reactors
+            </a>
+          </h3>
+        </article>
+        <article class="publication">
+          <p class="publication__meta">2026 / Progress in Nuclear Energy</p>
+          <h3>
+            <a href="https://doi.org/10.1016/j.pnucene.2026.106421" target="_blank" rel="noreferrer">
+              Decay heat characterization for molten salt reactor concepts with power density, humidity, and air ingress
+              as uncertain parameters
+            </a>
+          </h3>
+        </article>
+        <article class="publication">
+          <p class="publication__meta">2025 / npj Materials Degradation</p>
+          <h3>
+            <a href="https://doi.org/10.1038/s41529-025-00710-7" target="_blank" rel="noreferrer">
+              Bayesian calibration of irradiated graphite property models under high temperatures
+            </a>
+          </h3>
+        </article>
+        <article class="publication">
+          <p class="publication__meta">2025 / Progress in Nuclear Energy</p>
+          <h3>
+            <a href="https://doi.org/10.1016/j.pnucene.2024.105503" target="_blank" rel="noreferrer">
+              Coupled neutronics, thermochemistry, corrosion modeling and sensitivity analyses for isotopic evolution in
+              molten salt reactors
+            </a>
+          </h3>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Trajectory</p>
+        <h2>An international path through mechanics, nuclear engineering, and computational science.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline__item">
+          <p class="timeline__year">Canada</p>
+          <h3>Doctorate in modelling and computational science</h3>
+          <p>Doctoral research at Ontario Tech University focused on algorithms for thermochemical-equilibrium and
+            MOOSE-based solver Yellowjacket.</p>
+        </article>
+        <article class="timeline__item">
+          <p class="timeline__year">Italy</p>
+          <h3>Master's in nuclear engineering</h3>
+          <p>Research at Politecnico di Milano included computational modeling of helium bubble reactivity feedback in
+            molten-salt fast
+            reactor systems.</p>
+        </article>
+        <article class="timeline__item">
+          <p class="timeline__year">India</p>
+          <h3>Bachelor's in mechanical engineering</h3>
+          <p>Undergraduate training at Dr. A.P.J. Abdul Kalam Technical Univeristy with capstone project on CFD modeling
+            of exhaust manifold to improve internal combustion engine efficiency.</p>
+        </article>
+        <article class="timeline__item">
+          <p class="timeline__year">United States</p>
+          <h3>Computational scientist at Idaho National Laboratory</h3>
+          <p>Current work spans reactor chemistry, advanced materials, surrogate methods, and multiphysics software for
+            nuclear applications.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="contact-panel">
+        <div>
+          <p class="eyebrow">Connect</p>
+          <h2>Open to technical conversations that go beyond surface-level AI and modeling talk.</h2>
+          <p>
+            The clearest routes in are public: research profile, code, and professional
+            network.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="https://inl.elsevierpure.com/en/persons/parikshit-bajpai/" target="_blank" rel="noreferrer">INL
+            profile</a>
+          <a href="https://github.com/parikshitbajpai" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/parikshit-bajpai" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://orcid.org/0000-0001-5778-449X" target="_blank" rel="noreferrer">ORCID</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span>&copy; 2026 Parikshit Bajpai</span>
+      <span>Research, software, and scientific computing.</span>
+    </div>
+  </footer>
+</body>
+
 </html>
