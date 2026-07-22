@@ -161,7 +161,6 @@ h3 {
 }
 
 .hero,
-.stats,
 .section,
 .contact-panel {
   border: 1px solid rgba(255, 255, 255, 0.55);
@@ -221,8 +220,7 @@ h3 {
 .software-item p,
 .publication__meta,
 .timeline__item p,
-.contact-panel p,
-.stat__label {
+.contact-panel p {
   color: var(--muted);
 }
 
@@ -369,34 +367,9 @@ h3 {
   line-height: 1.25;
 }
 
-.hero-card__text {
-  margin-bottom: 0;
-  color: rgba(249, 243, 234, 0.78);
-}
-
-.stats,
 .section {
   margin-top: 1.75rem;
   border-radius: 32px;
-}
-
-.stats {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1px;
-  overflow: hidden;
-}
-
-.stat {
-  padding: 1.5rem;
-  background: rgba(255, 255, 255, 0.42);
-}
-
-.stat__value {
-  margin-bottom: 0.35rem;
-  font-family: "Newsreader", Georgia, serif;
-  font-size: clamp(2rem, 5vw, 3rem);
-  line-height: 1;
 }
 
 .section {
@@ -534,8 +507,7 @@ h3 {
   .work-grid,
   .publication-list,
   .timeline,
-  .contact-panel,
-  .stats {
+  .contact-panel {
     grid-template-columns: 1fr;
   }
 
